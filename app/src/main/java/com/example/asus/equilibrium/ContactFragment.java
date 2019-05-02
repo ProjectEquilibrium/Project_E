@@ -76,7 +76,7 @@ public class ContactFragment extends Fragment {
 
         //  TextView contacttext = (TextView) getView().findViewById(R.id.contacttext);
         //   contacttext.setTypeface(opensans);
-        //    contacttext.setText("\" If you want to discuss a possible project, know more about me, or just have a chitchat :) please get in touch.\"");
+        //  contacttext.setText("\" If you want to discuss a possible project, know more about me, or just have a chitchat :) please get in touch.\"");
 
         EditText name = (EditText) getView().findViewById(R.id.Name);
         name.setTypeface(opensans);

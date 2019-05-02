@@ -7,24 +7,27 @@
     android:fitsSystemWindows="true"
     tools:context=".ContactActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="616dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="27dp"
             android:paddingLeft="3dp"
             android:text="@string/contact_form_name"
+            android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/design_default_color_primary_dark"
-            android:textSize="12sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/Name"
             android:layout_width="fill_parent"
-            android:layout_height="38dp"
+            android:layout_height="29dp"
             android:layout_marginBottom="20dp"
             android:inputType="text"
             android:singleLine="true"
@@ -35,9 +38,11 @@
             android:layout_height="wrap_content"
             android:paddingLeft="3dp"
             android:text="@string/contact_form_email"
+            android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/design_default_color_primary_dark"
-            android:textSize="12sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/Email"
@@ -54,9 +59,11 @@
             android:layout_height="wrap_content"
             android:paddingLeft="3dp"
             android:text="@string/contact_form_subject"
+            android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/design_default_color_primary_dark"
-            android:textSize="12sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/subject"
@@ -72,14 +79,16 @@
             android:layout_height="32dp"
             android:paddingLeft="3dp"
             android:text="@string/contact_form_message"
+            android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/design_default_color_primary_dark"
-            android:textSize="12sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/Message"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="219dp"
             android:layout_marginBottom="20dp"
             android:height="180dp"
             android:gravity="top"
@@ -89,17 +98,19 @@
         <Button
             android:id="@+id/FeedbackButton"
             android:layout_width="wrap_content"
-            android:layout_height="32dp"
+            android:layout_height="37dp"
             android:layout_gravity="center"
             android:background="@color/design_default_color_primary"
-            android:paddingLeft="15dp"
-            android:paddingTop="1dp"
-            android:paddingRight="15dp"
             android:paddingBottom="1dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="1dp"
             android:text="@string/contact_form_button"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textSize="13sp" />
+
+
     </LinearLayout>
 
 

@@ -15,3 +15,4 @@ public class ExerciseFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_exercise, container,false);
     }
 }
+

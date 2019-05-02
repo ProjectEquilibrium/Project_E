@@ -1,6 +1,8 @@
 package com.example.asus.equilibrium;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -17,6 +19,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
@@ -27,6 +32,13 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_drawer);
 
+        Spinner mySpinner = (Spinner) findViewById(R.id.spinner1);
+
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
+                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.Names));
+        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -35,9 +47,9 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Contact us page", Toast.LENGTH_SHORT).show();
-//                Snackbar.make(view, "Contact Us Page", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-                 //startActivity(new Intent(MainActivity.this, ContactUsFragment.class));
+                 Snackbar.make(view, "Contact Us Page", Snackbar.LENGTH_LONG)
+                       .setAction("Action", null).show();
+                 startActivity(new Intent(MainActivity.this, ContactActivity.class));
 
             }
         });
