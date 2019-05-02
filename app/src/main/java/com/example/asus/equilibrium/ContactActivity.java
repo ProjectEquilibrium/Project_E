@@ -32,7 +32,7 @@ public class ContactActivity extends AppCompatActivity {
 
 
 
-        Button email = (Button) findViewById(R.id.message);
+        Button email = (Button) findViewById(R.id.FeedbackButton);
         email.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
