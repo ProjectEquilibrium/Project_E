@@ -11,10 +11,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="sans-serif-condensed"
         android:text="Home"
         android:textColor="@android:color/background_dark"
-        android:textSize="30sp"
+        android:textSize="36sp"
         android:textStyle="bold" />
 
     <ImageView
@@ -29,14 +29,63 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="325dp"
-        android:layout_height="142dp"
+        android:layout_height="181dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="145dp"
+        android:layout_marginTop="70dp"
         android:editable="false"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed"
         android:inputType="none"
-        android:text="Welcome to Equilibrium, We're glad to have you on board. Equilibrium was founded by a group of gym Enthusiasts friends. " />
+        android:text="Welcome to Equilibrium, We're glad to have you on board. Equilibrium was founded by a group of gym enthusiasts, Who all just want to help people maintain their lifestyle and to make sure they have a balanced diet and healthy mindset. "
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignTop="@+id/imageButton3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/dumbbell" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="175dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fruit" />
+
+    <TextView
+        android:id="@+id/homebutton"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="145dp"
+        android:layout_marginStart="52dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Exercise "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/home2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/homebutton"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Diet Plan"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

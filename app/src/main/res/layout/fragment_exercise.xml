@@ -78,6 +78,7 @@
         android:layout_marginStart="71dp"
         android:text="CHEST"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
     <TextView
@@ -89,6 +90,7 @@
         android:layout_marginEnd="70dp"
         android:text="SHOULDERS"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
     <TextView
@@ -100,6 +102,7 @@
         android:layout_marginBottom="255dp"
         android:text="LEGS"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
     <TextView
@@ -110,6 +113,7 @@
         android:layout_below="@+id/BackButton"
         android:layout_marginTop="-100dp"
         android:text="BACK"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
     <TextView
@@ -121,6 +125,7 @@
         android:layout_marginTop="-100dp"
         android:text="ARMS"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
 

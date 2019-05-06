@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="sans-serif-condensed"
         android:text="Make Your Own"
         android:textColor="@android:color/background_dark"
         android:textSize="30sp"
