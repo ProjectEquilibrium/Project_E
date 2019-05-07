@@ -41,16 +41,16 @@
         android:textAlignment="center" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/Exercisebutton"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:layout_alignStart="@+id/editText"
-        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignTop="@+id/Dietplanbutton"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/dumbbell" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/Dietplanbutton"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:layout_alignEnd="@+id/editText"

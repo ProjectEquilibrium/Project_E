@@ -141,6 +141,7 @@ public class MainActivity extends AppCompatActivity
        //     startActivity(new Intent(MainActivity.this, ContactActivity.class));
             Intent contactUsIntent = new Intent(MainActivity.this, ContactActivity.class);
             startActivity(contactUsIntent);
+
         } else if (id == R.id.nav_share) {
             Intent shareintent = new Intent();
             shareintent.setAction(Intent.ACTION_SEND);
