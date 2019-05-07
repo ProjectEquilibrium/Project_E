@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5103A9F4">
+
+
+    <TextView
+        android:id="@+id/youtubevids"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif-monospace"
+        android:text="Exercise Videos"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/youtubevids2"
+        android:layout_width="305dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:fontFamily="serif-monospace"
+        android:text="Unable to load videos"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

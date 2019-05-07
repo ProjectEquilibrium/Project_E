@@ -138,7 +138,6 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(MainActivity.this, SettingsActivity.class));
 
         } else if (id == R.id.nav_contact_us) {
-       //     startActivity(new Intent(MainActivity.this, ContactActivity.class));
             Intent contactUsIntent = new Intent(MainActivity.this, ContactActivity.class);
             startActivity(contactUsIntent);
 
